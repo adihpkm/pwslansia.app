@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PWS KESGA Online</title>
+
+  <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=15VDBDC-MbErNt07DgIr0miwZOXEx7WOH&sz=s192" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://drive.google.com/thumbnail?id=15VDBDC-MbErNt07DgIr0miwZOXEx7WOH&sz=s180" />
+  <link rel="icon" sizes="192x192" href="https://drive.google.com/thumbnail?id=1tljXW-CqaW5yJy4VSeGn9ie4aEPn2ycS&sz=s192" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #eee;
+      overflow: hidden; /* Mencegah scroll ganda */
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbzr3C2oI1oEP3uZr_T-cVuAuoVNG5MnZ5PiCvsZkf-fpbdpklgFiPhICu54pT2ASyoP/exec"
+      scrolling="yes"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allow="fullscreen; camera; microphone; display-capture; geolocation;">
+    </iframe>
+  </div>
+</body>
+</html>
